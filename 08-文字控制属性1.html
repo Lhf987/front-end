@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字控制属性</title>
+    <style>
+        /* 经验：谷歌浏览器文字有默认大小 16px */
+        .p{
+            /* font-size 属性必须有单位，否则无效 */
+            font-size: 30px;
+        }
+        /* 正常粗细 */
+        .h3{
+            font-weight: 400;
+        }
+        /* 加粗效果 */
+        .div{
+            font-weight: 700;
+        }
+        /* 取消倾斜 */
+        .em{
+            font-style: normal;
+        }
+        /* 倾斜 */
+        .div1{
+            font-style: italic;
+        }
+        /* 行高,默认行高是16px */
+        .hight{
+            /* line-height: 30px; */
+            /* 属性值是单独数字，行高则为当前标签字体大小的倍数 */
+            line-height: 2;
+        }
+
+        .div2{
+            height: 100px;
+            background-color: skyblue;
+
+            /* 注意：只能是单行文字垂直居中 */
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 字体大小 -->
+    <p class="p">测试字体大小</p>
+    <div>测试默认字体大小</div>
+    <!-- 字体粗细 -->
+     <h3 class="h3">h3 标题</h3>
+     <div class="div">div 标签</div>
+     <!-- 字体倾斜 -->
+      <em class="em">em 标签</em>
+      <div class="div1">div 标签</div>
+      <!-- 行高 -->
+       <p class="hight">现在参与天池用户调研-分享你与天池的精彩故事，就有机会获得天池神秘大礼包并参与天池官方宣传视频录制现在参与天池用户调研-分享你与天池的精彩故事，就有机会获得天池神秘大礼包并参与天池官方宣传视频录制现在参与天池用户调研-分享你与天池的精彩故事，就有机会获得天池神秘大礼包并参与天池官方宣传视频录制</p>
+       <!-- 垂直居中效果 -->
+        <div class="div2"> 文 字</div>
+</body>
+</html>
