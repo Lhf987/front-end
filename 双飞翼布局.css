@@ -1,0 +1,30 @@
+.container {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    margin-left: -100%;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+.center {
+    float: left;
+    width: 100%;
+}
+
+.inner {
+    margin: 0px 100px;
+    background-color: green;
+    text-align: center;
+}
+
+.right {
+    float: left;
+    margin-left: -100px;
+    width: 100px;
+    background-color: blue;
+    text-align: center;
+}
